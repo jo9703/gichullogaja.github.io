@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>기출로 가자</title>
+    <title>개인정보처리방침 | Comet's App</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
     <style>
@@ -11,31 +11,63 @@
             font-family: 'Noto Sans KR', sans-serif;
         }
     </style>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const container = document.getElementById('items-container');
-            const items = Array.from(container.children);
-            items.sort((a, b) => a.textContent.localeCompare(b.textContent));
-            items.forEach(item => container.appendChild(item));
-        });
-    </script>
 </head>
 <body class="bg-gray-100 text-gray-900">
     <div class="container mx-auto p-8">
-        <h1 class="text-4xl font-bold text-center mb-4">기출로 가자</h1>
-        <p class="text-center mb-8">자격증 기출문제 모음</p>
-        <div id="items-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <a href="육상무선통신사.html" class="block p-4 bg-white border border-gray-300 rounded-lg text-center hover:bg-gray-50">육상무선통신사</a>
-            <a href="#" class="block p-4 bg-white border border-gray-300 rounded-lg text-center hover:bg-gray-50">해상무선통신사</a>
-            <a href="#" class="block p-4 bg-white border border-gray-300 rounded-lg text-center hover:bg-gray-50">항공무선통신사</a>
-            <a href="#" class="block p-4 bg-white border border-gray-300 rounded-lg text-center hover:bg-gray-50">제1급아마추어무선</a>
-            <a href="#" class="block p-4 bg-white border border-gray-300 rounded-lg text-center hover:bg-gray-50">제2급 아마추어무선</a>
-            <a href="#" class="block p-4 bg-white border border-gray-300 rounded-lg text-center hover:bg-gray-50">제3급 아마추어무선(전화)</a>
-            <a href="#" class="block p-4 bg-white border border-gray-300 rounded-lg text-center hover:bg-gray-50">제3급 아마추어무선(전신)</a>
-            <a href="#" class="block p-4 bg-white border border-gray-300 rounded-lg text-center hover:bg-gray-50">교통기사</a>
-            <a href="#" class="block p-4 bg-white border border-gray-300 rounded-lg text-center hover:bg-gray-50">전기 기능사</a>
+        <h1 class="text-4xl font-bold text-center mb-4">개인정보처리방침</h1>
+        <p class="text-center text-gray-600 mb-8">
+            Comet's App은 사용자의 개인정보를 보호하고, 관련 법령을 준수합니다.
+        </p>
+        
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold mb-4">1. 수집하는 개인정보</h2>
+            <p class="mb-4">
+                본 서비스는 다음과 같은 개인정보를 수집할 수 있습니다.
+            </p>
+            <ul class="list-disc pl-6">
+                <li>이름, 이메일, 연락처 (회원가입 시)</li>
+                <li>위치 정보 (서비스 이용 시, 선택적 동의 필요)</li>
+                <li>로그 데이터 및 쿠키</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold mt-6 mb-4">2. 개인정보 수집 목적</h2>
+            <p class="mb-4">
+                수집된 개인정보는 다음과 같은 목적을 위해 사용됩니다.
+            </p>
+            <ul class="list-disc pl-6">
+                <li>서비스 제공 및 유지</li>
+                <li>고객 지원 및 문의 응대</li>
+                <li>서비스 개선 및 맞춤형 콘텐츠 제공</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold mt-6 mb-4">3. 개인정보 보관 기간</h2>
+            <p class="mb-4">
+                수집된 개인정보는 원칙적으로 목적이 달성된 후 즉시 파기됩니다. 단, 관련 법령에 따라 일정 기간 보관될 수 있습니다.
+            </p>
+
+            <h2 class="text-2xl font-bold mt-6 mb-4">4. 개인정보 제3자 제공</h2>
+            <p class="mb-4">
+                본 서비스는 원칙적으로 사용자의 개인정보를 제3자에게 제공하지 않습니다. 단, 법적 요구가 있는 경우 제공될 수 있습니다.
+            </p>
+
+            <h2 class="text-2xl font-bold mt-6 mb-4">5. 보안 조치</h2>
+            <p class="mb-4">
+                사용자의 개인정보 보호를 위해 암호화 저장, 방화벽 적용, 접근 권한 관리 등의 보안 조치를 시행하고 있습니다.
+            </p>
+
+            <h2 class="text-2xl font-bold mt-6 mb-4">6. 사용자의 권리</h2>
+            <p class="mb-4">
+                사용자는 자신의 개인정보에 대해 열람, 수정, 삭제 요청을 할 수 있습니다. 관련 문의는 아래 연락처를 이용해 주세요.
+            </p>
+
+            <h2 class="text-2xl font-bold mt-6 mb-4">7. 문의하기</h2>
+            <p class="mb-4">
+                개인정보 관련 문의는 아래 이메일로 연락해 주세요.
+            </p>
+            <p class="font-bold">📧 Email: amyparklee3079@gmail.com</p>
         </div>
-        <p class="text-center text-sm text-gray-600 mt-8">Operate by Amy LeeㆍContact amyparklee3079@gmail.com</p>
+
+        <p class="text-center text-sm text-gray-600 mt-8">© 2024 Comet's App. All rights reserved.</p>
     </div>
 </body>
 </html>
